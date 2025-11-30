@@ -1,4 +1,4 @@
-import practicapccomponentes.*;
+import practica_pc_componentes.*;
 
 public class Main {
     public static void main(String[] args) {

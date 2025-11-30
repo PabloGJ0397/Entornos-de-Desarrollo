@@ -1,12 +1,11 @@
-package practicapccomponentes;
+package practica_pc_componentes;
 
-public class DiscoDuro {
+public class RAM {
     String marca;
     String modelo;
-    String tipoDisco;
+    String tipoMemoria;
     String almacenamiento;
     double precio;
-
 
     public String getMarca() {
         return marca;
@@ -24,12 +23,12 @@ public class DiscoDuro {
         this.modelo = modelo;
     }
 
-    public String getTipoDisco() {
-        return tipoDisco;
+    public String getTipoMemoria() {
+        return tipoMemoria;
     }
 
-    public void setTipoDisco(String tipoDisco) {
-        this.tipoDisco = tipoDisco;
+    public void setTipoMemoria(String tipoMemoria) {
+        this.tipoMemoria = tipoMemoria;
     }
 
     public String getAlmacenamiento() {

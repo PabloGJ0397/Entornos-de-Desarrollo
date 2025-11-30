@@ -1,4 +1,4 @@
-package practicapccomponentes;
+package practica_pc_componentes;
 
 public class TarjetaGrafica {
     String marca;

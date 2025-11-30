@@ -1,11 +1,12 @@
-package practicapccomponentes;
+package practica_pc_componentes;
 
-public class CPU {
+public class DiscoDuro {
     String marca;
     String modelo;
-    String tipoSocket;
-    String generacion;
+    String tipoDisco;
+    String almacenamiento;
     double precio;
+
 
     public String getMarca() {
         return marca;
@@ -23,20 +24,20 @@ public class CPU {
         this.modelo = modelo;
     }
 
-    public String getTipoSocket() {
-        return tipoSocket;
+    public String getTipoDisco() {
+        return tipoDisco;
     }
 
-    public void setTipoSocket(String tipoSocket) {
-        this.tipoSocket = tipoSocket;
+    public void setTipoDisco(String tipoDisco) {
+        this.tipoDisco = tipoDisco;
     }
 
-    public String getGeneracion() {
-        return generacion;
+    public String getAlmacenamiento() {
+        return almacenamiento;
     }
 
-    public void setGeneracion(String generacion) {
-        this.generacion = generacion;
+    public void setAlmacenamiento(String almacenamiento) {
+        this.almacenamiento = almacenamiento;
     }
 
     public double getPrecio() {

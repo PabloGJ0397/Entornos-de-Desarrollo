@@ -1,10 +1,10 @@
-package practicapccomponentes;
+package practica_pc_componentes;
 
-public class RAM {
+public class CPU {
     String marca;
     String modelo;
-    String tipoMemoria;
-    String almacenamiento;
+    String tipoSocket;
+    String generacion;
     double precio;
 
     public String getMarca() {
@@ -23,20 +23,20 @@ public class RAM {
         this.modelo = modelo;
     }
 
-    public String getTipoMemoria() {
-        return tipoMemoria;
+    public String getTipoSocket() {
+        return tipoSocket;
     }
 
-    public void setTipoMemoria(String tipoMemoria) {
-        this.tipoMemoria = tipoMemoria;
+    public void setTipoSocket(String tipoSocket) {
+        this.tipoSocket = tipoSocket;
     }
 
-    public String getAlmacenamiento() {
-        return almacenamiento;
+    public String getGeneracion() {
+        return generacion;
     }
 
-    public void setAlmacenamiento(String almacenamiento) {
-        this.almacenamiento = almacenamiento;
+    public void setGeneracion(String generacion) {
+        this.generacion = generacion;
     }
 
     public double getPrecio() {

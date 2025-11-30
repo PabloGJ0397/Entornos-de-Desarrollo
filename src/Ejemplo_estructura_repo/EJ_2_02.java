@@ -1,4 +1,4 @@
-package Tema_02;
+package Ejemplo_estructura_repo;
 /*
 JUEGO 4 EN RAYA
  */
