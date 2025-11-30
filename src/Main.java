@@ -45,6 +45,7 @@ public class Main {
         tarjetaGrafica1.setPrecio(589.90);
 
         String marcaCpu = cpu1.getMarca();
+        System.out.println(marcaCpu);
 
     }
 }
